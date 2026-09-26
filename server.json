@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ad.getle/leads",
+  "title": "Getlead",
+  "description": "Find B2B leads with verified work emails, find and verify emails, and run cold email outreach.",
+  "version": "1.0.0",
+  "websiteUrl": "https://getle.ad/mcp",
+  "repository": {
+    "url": "https://github.com/Adgrowofficial/getlead-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.getle.ad/mcp"
+    }
+  ]
+}
